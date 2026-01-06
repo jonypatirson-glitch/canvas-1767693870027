@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  storage:
+    build: ./storage
+
+  database:
+    build: ./database
